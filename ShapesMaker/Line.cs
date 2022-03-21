@@ -19,7 +19,7 @@ namespace ShapesMaker
 
         public override string Draw()
         {
-            return $"Line: ({P1.X}, {P1.Y}, {P2.X}, {P2.Y})";
+            return $"Line: ({P1.X}, {P1.Y} {P2.X} {P2.Y})";
         }
     }
 }
